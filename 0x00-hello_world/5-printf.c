@@ -1,8 +1,7 @@
 #include <stdio.h>
 /*
- *main function
- *returns 0 after it prints out a string
- * 
+ *main -main block
+ *return: 0
  */
 int main(void)
 {
