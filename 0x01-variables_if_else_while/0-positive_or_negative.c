@@ -4,6 +4,8 @@
 
 /*
  * main - main block
+ * Description : get a random num
+ * check if it's pos or neg or zero
  * Return : 0
  */
 int main(void)
@@ -17,6 +19,7 @@ int main(void)
 	else if (n < 0)
 		printf("%d is negative\n", n);
 	else
-		printf("%d is zero\n", n);	
+		printf("%d is zero\n", n);
+
 	return (0);
 }
