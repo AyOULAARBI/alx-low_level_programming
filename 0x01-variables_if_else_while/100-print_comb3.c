@@ -7,8 +7,6 @@
  */
 int main(void)
 {
-	int main(void)
-{
 	int c;
 	int d = 0;
 
