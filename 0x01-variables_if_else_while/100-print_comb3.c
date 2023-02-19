@@ -7,17 +7,31 @@
  */
 int main(void)
 {
-       int ch,cha;
+	int main(void)
+{
+	int c;
+	int d = 0;
 
-	for (ch = '0'; ch < '9'; ch ++)
+	while (d < 10)
 	{
-		for (cha = '1'; cha <= '9'; cha ++)
+		c = 0;
+		while (c < 10)
 		{
-			putchar(ch);
-			putchar(cha);
-			putchar(',');
-			putchar(' ');
+			if (d != c && d < c)
+			{
+				putchar('0' + d);
+				putchar('0' + c);
+
+				if (c + d != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+
+			c++;
 		}
+		d++;
 	}
 	putchar('\n');
 	return (0);
