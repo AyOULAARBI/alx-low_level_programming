@@ -1,4 +1,4 @@
-#nclude "main.h"
+#include "main.h"
 /**
  * _abs - get the abs of a num
  * @n: param
