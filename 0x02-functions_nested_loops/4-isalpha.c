@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - checks if is alpha or not
+ * @c:  param
  *  Return: 0 or 1
  */
 int _isalpha(int c)
